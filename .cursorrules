@@ -1,0 +1,73 @@
+C:\Users\dev
+├── frontend/
+│   ├── src/
+│   │   ├── App.vue
+│   │   └── main.ts
+│   └── package.json
+└── backend/
+    └── src/
+        └── main/
+            ├── java/
+            │   └── com/
+            │       └── qrtrace/
+            │           └── api/
+            │               ├── QrTraceAuthApplication.java
+            │               ├── controller/
+            │               │   └── QrCodeController.java
+            │               └── config/
+            │                   └── WebConfig.java
+            └── resources/
+                └── application.properties
+
+
+개발할 시스템 요약
+1. 핵심 기능
+단일 QR코드로 이력추적 + 정품인증 통합 관리
+3중 레이어 구조의 QR코드 시스템
+단계별 차별화된 접근 권한 관리
+블록체인 기반 정품인증
+2. 시스템 구조
+QR코드 레이어 구조
+Base Layer
+기본 제품 정보
+공개 접근 가능
+Auth Layer
+기업용 암호화 영역 (생산/물류/유통)
+정품인증 영역
+단계별 차별화된 접근 키
+인증 시스템
+제품 고유 시리얼 넘버
+일회성 정품인증
+블록체인 기반 인증 기록
+3. 사용자별 기능
+생산자
+QR코드 생성
+제품 정보 등록
+생산 이력 기록
+물류/유통업체
+각 단계별 처리 이력 기록
+제한된 정보 접근/수정
+소비자
+이력정보 열람
+정품인증 시도
+4. 보안 메커니즘
+레이어드 암호화 구조
+단계별 독립 키 관리
+블록체인 기반 데이터 무결성
+해시 기반 일회성 인증
+5. 기술 스택
+백엔드
+Spring Boot 3.2.x
+MongoDB 7.0
+JWT 인증
+블록체인 연동
+프론트엔드
+Vue.js 3.4.x
+TypeScript
+Pinia 상태관리
+QR 코드 처리 라이브러리
+이 시스템의 가장 큰 특징은:
+하나의 QR코드로 모든 기능 통합
+강력한 보안성 (레이어드 구조)
+효율적인 접근 제어
+위변조 방지 시스템
